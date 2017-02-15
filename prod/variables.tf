@@ -18,7 +18,7 @@ variable "aws_region" {
 
 #Customer specific settings
 variable "cust_shortname" {
-  default = "CVGX"
+  default = "customer-prodaccount"
 }
 
 variable "env_shortname" {

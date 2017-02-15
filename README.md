@@ -53,7 +53,7 @@ When you first start using Terraform, you may be tempted to define all of your i
 2. Update and run init.ps1 on each environment with required bucket values
 3. Update env\variables.tf on each environment with required env variables
 4. `cd \dev\`
-5. `terraform get`
+5. `terraform get` (To add the required modules from main.tf)
 6. `terraform plan` (more details below)
 7. `terraform apply`
 8. `terraform destroy`
