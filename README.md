@@ -36,16 +36,16 @@ When you first start using Terraform, you may be tempted to define all of your i
 
 ## Project structure
 
--Environment (dev)
-    - init.ps1 -> Script to set remote state
-    - main.tf -> Main 
-    - variables.tf -> Store environment specific variables
--Modules
-    - Module 1 (IAM)
-        - CreateBaselineIAMRoles -> main
-        - variables.tf -> mod variables helper. 
-        - template_file.tf -> template loader
-        - xxxPolicy.tpl -> Policy templates (JSON)
+1. Environment (dev)
+    1. init.ps1 -> Script to set remote state
+    2. main.tf -> Main 
+    3. variables.tf -> Store environment specific variables
+2. Modules
+    1. Module 1 (IAM)
+        1. CreateBaselineIAMRoles -> main
+        2. variables.tf -> mod variables helper. 
+        3. template_file.tf -> template loader
+        4. xxxPolicy.tpl -> Policy templates (JSON)
 
 ## Usage
 
