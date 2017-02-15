@@ -88,14 +88,18 @@ terraform destroy
 ## Next steps
 
 Build modules for other standard AWS resources.
-    - VPC
-        - Security groups
-        - Subnets
-        - Route tables
-        - Gateways
-    - Storage
-    - EC2
-        - Web Server
-        - NAT
-    - RDS
-    - Logging
+
+1. VPC
+    1. Security groups
+    2. Subnets
+    3. Route tables
+    4. Gateways
+
+2. Storage
+    1. Buckets
+    2. Bucket policies
+3. EC2
+    1. Web Server
+    2. NAT
+4. RDS
+5. Logging
